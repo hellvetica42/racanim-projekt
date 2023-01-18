@@ -47,10 +47,10 @@ class MyWindow(arcade.Window):
         self.manager.enable()
 
         self.coherence = 0.005
-        self.separation = 0.05
+        self.separation = 0.3
         self.alignment = 0.05
         self.perception = 500
-        self.sep_distance = 20
+        self.sep_distance = 30
 
         coh_slider= UISlider(value=self.coherence*1000, width=self.sliderW, height=self.sliderH)
         coh_label = UILabel(text=f'Coherence: {self.coherence:.5f}')
